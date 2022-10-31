@@ -10,12 +10,12 @@ The study of genetic and molecular mechanisms underlying tissue morphogenesis ha
 
 ## Our Proposed pipeline
 
-![Results](./images/pipeline.pdf)
+![Results](./images/pipeline.png)
 ![Results](./images/critical.png)
 
 ## Visualize results
 
-![Results](./images/3Dimage.png)
+![Results](./images/result.png)
 
 ## How to use this loss
 

@@ -223,7 +223,6 @@ class BCEDiceLoss_Cavity(nn.Module):
         seg = measure.label(img, background=0, connectivity=1)
 
         critical = MBD.topology_error_3D(np.array(seg, dtype = np.int32), diff)
-        pdb.set_trace()
 
         critical = critical.astype(np.uint8)
         critical = torch.from_numpy(np.array([critical])).cuda()

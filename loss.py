@@ -383,7 +383,7 @@ def _create_loss(name, loss_config, weight, ignore_index, pos_weight):
         alpha = loss_config.get('alphs', 1.)
         beta = loss_config.get('beta', 1.)
         gamma = loss_config.get('gamma', 1)
-        return BCEDiceLoss_Watershed(alpha, beta, gamma)
+        return BCEDiceLoss_Cavity(alpha, beta, gamma)
 
     elif name == 'BCEDiceLoss_cldice':
         alpha = loss_config.get('alphs', 1.)

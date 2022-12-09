@@ -1,6 +1,6 @@
 # Topology-aware method to segment 3D plant tissues images.
 
-Official github repo. for NeurIPS 2022 workshop (AI4science)
+This repo is the official implementation of Topology-aware method to segment 3D plant tissues images. (Paper link; https://www.lrde.epita.fr/wiki/Publications/movn.22.nips) accepted by NeurIPS 2022 workshop (AI4science).
 
 Authors: Minh Ôn Vũ Ngọc et al.
 
@@ -17,6 +17,17 @@ The study of genetic and molecular mechanisms underlying tissue morphogenesis ha
 
 ![Results](./images/result.PNG)
 
+
+## Dependencies
+
+Python libarary:
+pytorch>=1.0
+torchvision
+numpy
+scipy
+opencv-python
+
+
 ## How to use this loss
 
 Compile the loss:
@@ -24,6 +35,20 @@ Compile the loss:
 python setup.py build
 python setup.py install
 ```
+
+## Citation
+
+@inproceedings{ngocminh2022,
+  title={Topology-aware method to segment 3D plant tissues images},
+  author={Minh, On Vu Ngoc and Nicolas, Boutry and Jonathan, Fabrizio},
+  booktitle={Advances in Neural Information Processing Systems workshop},
+  year={2023}
+}
+
+
+## Contact
+If you have any questions, please feel free to contact vungocminhpn@gmail.com
+
 
 
 

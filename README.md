@@ -38,13 +38,14 @@ python setup.py install
 
 ## Citation
 
+```
 @inproceedings{ngocminh2022,
   title={Topology-aware method to segment 3D plant tissues images},
   author={Minh, On Vu Ngoc and Nicolas, Boutry and Jonathan, Fabrizio},
   booktitle={Advances in Neural Information Processing Systems workshop},
   year={2023}
 }
-
+```
 
 ## Contact
 If you have any questions, please feel free to contact vungocminhpn@gmail.com

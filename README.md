@@ -20,12 +20,12 @@ The study of genetic and molecular mechanisms underlying tissue morphogenesis ha
 
 ## Dependencies
 
-Python libarary:
-pytorch>=1.0
-torchvision
-numpy
-scipy
-opencv-python
+- Python libarary:
+  - pytorch>=1.0
+  - torchvision
+  - numpy
+  - scipy
+  - opencv-python
 
 
 ## How to use this loss
